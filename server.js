@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 2403;
+const port = process.env.PORT || 3022;
 
 app.get('/', (req, res) => {
     res.json({ message: 'Welcome to my Node.js app!' });
